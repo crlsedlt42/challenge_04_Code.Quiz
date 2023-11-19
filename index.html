@@ -1,18 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="assets/style.css" />
+<html>
+  <head>
+    <title>CSS Box Styling</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class= "large-font">CODING QUIZ CHALLENGE
+      </div>
+      <button class="start-button">Start</button>
+    </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz</title>
-</head>
+    <main>
+      <section>
+        <div class="card word-guess">
+          <div>Hello World, Hello World, Hello World
+          </div>
+        </div>
+      </section>
 
-<body>
-<ul>
-    <li>Carlos De La Torre</li>
-</ul>
+      <section>
+        <div class="card results">
+          <div class = "win-loss-container">
+          <div>
+          <h2>Wins: <span class="win">0 </span> </h2>
+          <h2>Losses: <span class="lose">0</span></h2>
+        </div>
+          <button class="reset-button">Reset Score</button>
+      </div>
+          <div class= "card timer">
+            <div class = "timer-text">
+            <div class="large-font timer-count">10</div>
+            <h3>seconds remaining</h3>
+          </div>
+        
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="assets/script.js"></script>
-</body>
-
+  </body>
 </html>
