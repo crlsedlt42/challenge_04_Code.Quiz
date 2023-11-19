@@ -30,19 +30,16 @@
     border-radius: 8px;
     color: #13293d;
     cursor: pointer;
-    font-size: 2em;
+    font-size: 1em;
     letter-spacing: 0.21px;
     line-height: 16px;
     max-width: 255px;
     padding: 20px 52px;
     text-align: center;
-    transition-duration: 0.15s;
-    transition-property: background-color;
-    transition-timing-function: linear;
     margin-top: 0.6em;
   }
-  
-  header {
+
+header {
     padding: 40px;
     text-align: center;
     background: #13293d;
@@ -66,7 +63,7 @@
   
   .results {
     width: 30vw;
-    height: 400px;
+    height: 200px;
   }
   
   .card {
@@ -78,6 +75,14 @@
     margin: auto;
     padding: 20px;
   }
+
+  .questions {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    align-items: center;
+    text-align: center;
+  }
   
   .large-font {
     font-size: 3.5em;
@@ -85,7 +90,7 @@
   }
   
   .timer {
-    height: 240px;
+    height: 165px;
     padding: 10px;
     background: #13293d;
     color: #fff;
@@ -93,7 +98,7 @@
   }
   
   .timer-text {
-    padding: 55px;
+    padding: 10px;
   }
   
   @media screen and (max-width: 1183px) {

@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CSS Box Styling</title>
+
+<head>
+    <title>Coding Quiz</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div class= "large-font">CODING QUIZ CHALLENGE
-      </div>
-      <button class="start-button">Start</button>
+        <div class="large-font">CODING QUIZ CHALLENGE
+        </div>
+        <button class="start-button">Start</button>
     </header>
 
     <main>
-      <section>
-        <div class="card word-guess">
-          <div>Hello World, Hello World, Hello World
-          </div>
-        </div>
-      </section>
+        <section>
+            <div class="card questions">
+                <div>Hello World, Hello World, Hello World
+                </div>
+                <div class="answer-container">
+                    <button class="answer-button">Answer 1</button>
+                    <button class="answer-button">Answer 2</button>
+                    <button class="answer-button">Answer 3</button>
+                    <button class="answer-button">Answer 4</button>
+            </div>
+        </section>
 
-      <section>
-        <div class="card results">
-          <div class = "win-loss-container">
-          <div>
-          <h2>Wins: <span class="win">0 </span> </h2>
-          <h2>Losses: <span class="lose">0</span></h2>
-        </div>
-          <button class="reset-button">Reset Score</button>
-      </div>
-          <div class= "card timer">
-            <div class = "timer-text">
-            <div class="large-font timer-count">10</div>
-            <h3>seconds remaining</h3>
-          </div>
-        
-          </div>
-        </div>
-      </section>
+        <section>
+            <div class="card results">
+                <div class="card timer">
+                    <div class="timer-text">
+                        <div class="large-font timer-count">60</div>
+                        <h3>seconds remaining</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
     <script src="assets/script.js"></script>
-  </body>
+</body>
+
 </html>
